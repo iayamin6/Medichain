@@ -1,0 +1,32 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+/auth.json
+*.key
+*.pem
+
+# Dependencies and generated assets
+/vendor/
+/node_modules/
+/public/build/
+/public/hot
+/public/storage
+
+# Local application state
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/bootstrap/cache/*.php
+/database/*.sqlite
+*.log
+.phpunit.result.cache
+.phpunit.cache/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
